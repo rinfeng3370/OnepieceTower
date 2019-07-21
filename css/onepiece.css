@@ -1,0 +1,102 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 0.85em;
+     font-weight: bold;
+     font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+ }
+
+
+
+ .divleft{
+    background-image: url(../img/foreign_parts_left.png);
+    background-color: rgb(111, 179, 211);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    position: fixed; 
+    /* left: 0; */
+}
+
+.divright{
+    background-image: url(../img/bg_dot.jpg);
+    /* background-color: green; */
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    right:0;
+}
+
+.banner{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner:hover{
+    opacity:0.6;
+
+}
+
+.small-t{
+    text-align: left;
+    font-size: 10px;
+    margin-left: 70px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+
+.Main{
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+p{
+    line-height: 100%
+}
+
+.logo{
+    margin-top: 60px;
+}
+
+.datep{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mark{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+table,tr,td{
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    border: 1px solid rgb(149, 146, 146);
+    border-collapse: collapse;
+    
+    padding: 15px 17px;
+}
+
+tr:first-child {
+    background-color: rgb(111, 179, 211);
+}
+
+.rightfooter{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    /* position: relative; */
+    right: 0;
+    bottom: 0;
+    /* display: inline-block; */
+    padding: 25px 0px 30px 80px;
+    box-sizing: border-box;
+    
+}
+
+
