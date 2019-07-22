@@ -73,8 +73,8 @@ p{
 
 
 table,tr,td{
-    margin-left:auto; 
-    margin-right:auto;
+    /* margin-left:20px; 
+    margin-right:auto; */
     text-align: center;
     border: 1px solid rgb(149, 146, 146);
     border-collapse: collapse;
